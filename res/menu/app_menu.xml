@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/MAIN_VIEW"
+		  android:icon="@drawable/icon_main_view"
+          android:title="@string/MAIN_VIEW" /> 
+              
+	<item android:id="@+id/NEW_FOLDER"
+		  android:icon="@drawable/icon_new"
+          android:title="New Folder" />
+          
+     <item android:id="@+id/UPLOAD_VIEW"
+          android:title="@string/UPLOAD" 
+          android:icon="@drawable/menu_upload"/>     
+
+    <item android:id="@+id/SIGNOUT"
+    	  android:icon="@drawable/menu_logout"
+          android:title="@string/SIGNOUT" />   
+</menu>

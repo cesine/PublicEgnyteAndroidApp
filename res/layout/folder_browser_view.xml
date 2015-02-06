@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/BG_VIEW" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/opaque_black">	
+    
+	<LinearLayout android:id="@+id/FOLDER_BROWSER_VIEW"
+	    android:orientation="vertical"
+	    android:layout_centerInParent="true"
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		    <LinearLayout android:id="@+id/TOP_BAR"
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="44dip"
+			    android:textColor="@color/white"
+			    android:gravity="top"
+			    android:layout_weight="1"
+			    android:background="@drawable/breadcrumb_bg" >
+				<TextView android:id="@+id/BREADCRUMB_LABEL"
+			               android:layout_width="40dip"
+			               android:layout_height="fill_parent"
+			               android:layout_marginLeft="15dip"
+			               android:layout_marginTop="5dip"       
+			               android:textStyle="bold"
+			               android:singleLine="true"
+			               android:ellipsize="marquee" 
+			               android:marqueeRepeatLimit="marquee_forever"
+			               android:scrollHorizontally="true"
+			               android:focusable="true" 
+			               android:focusableInTouchMode="true"
+			               android:gravity="center_vertical" 
+			               android:freezesText="true"
+			               android:textColor="@color/white"
+			               android:layout_weight="8"
+			               android:textSize="14dip"
+			               android:text="Main"/>	
+			</LinearLayout>
+		    <LinearLayout 
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:background="@color/white" 
+		    android:gravity="top"
+		    android:layout_weight="10" >
+		    
+				<ListView android:id="@+id/android:list"
+			               android:layout_width="fill_parent"
+			               android:layout_height="fill_parent"
+			               android:background="@color/white"
+			               android:choiceMode="multipleChoice"
+			               android:cacheColorHint="#00000000"
+			               android:scrollingCache="false"
+			               android:drawSelectorOnTop="false"/>
+			
+			    <TextView android:id="@id/android:empty"
+			               android:layout_width="fill_parent"
+			               android:layout_height="fill_parent"
+			               android:text="Empty."/>	
+			</LinearLayout> 
+  						
+  			<LinearLayout android:id="@+id/FILE_ACTION_BAR"
+		  				android:background="@color/black"
+						android:layout_height="70dip"
+						android:layout_weight="3" 
+						android:layout_width="fill_parent"
+						android:gravity="bottom"
+						android:fillViewport="true">			
+	 				<Button android:id="@+id/OK_BTN" 
+	 						android:layout_width="160dip" 
+	 						android:layout_height="40dip" 
+	 						android:layout_marginRight="5dip"
+	 						android:background="@color/white" 
+	 						android:layout_gravity="center"
+	 						android:text="Select Directory"/>
+	 				<Button android:id="@+id/CANCEL_BTN" 
+	 						android:layout_width="160dip" 
+	 						android:layout_height="40dip" 
+	 						android:background="@color/white" 
+	 						android:layout_gravity="center"
+	 						android:text="Cancel"/>
+		   </LinearLayout>                             
+	</LinearLayout>
+</LinearLayout>

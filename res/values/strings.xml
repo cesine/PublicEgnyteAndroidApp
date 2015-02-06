@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="NEW_ACCOUNT">New Account</string>   
+    <string name="LINK_EGNYTE">Link to Egnyte</string> 
+    <string name="SIGNIN">Sign In</string>
+    <string name="SIGNUP">Sign Up</string>
+    <string name="HAVE_ACCT_TEXT">Don\'t have an Egnyte account?</string>
+    <string name="SIGNOUT">Sign Out</string>
+    <string name="EGNYTE">Egnyte File Server</string>
+    <string name="DEMO">Demo</string>
+    <string name="HELP">Help</string>
+    <string name="SAVE">Save</string>
+    <string name="CHANGE_DOMAIN">Change Domain</string>
+    <string name="BOOKMARK">Bookmarks</string>
+    <string name="ADD_BOOKMARK">Add Bookmark</string>
+    <string name="DEFAULT_OPTIONS">Default Options</string>
+    <string name="COPY_LINK">Copy Link</string>
+    <string name="SORT_OPTION">Sort Options</string>
+    <string name="SYNC_OPTION">Sync Options</string>
+    <string name="DEFAULT_OPTION">Options</string>
+    <string name="DOMAIN_EXAMPLE1">e.g. https://</string>
+    <string name="DOMAIN_EXAMPLE2">yourdomain</string>
+    <string name="DOMAIN_EXAMPLE3">.egnyte.com</string>  
+    <string name="DOMAIN_INPUT_LABEL">Domain:</string>
+    <string name="DOMAIN_USERNAME_LABEL">Username:</string>    
+    <string name="DOMAIN_PASSWORD_LABEL">Password:</string>
+    <string name="EXISTING_CUSTOMER">Existing</string>
+    <string name="CHANGE_UPLOAD_DIR">Change Directory</string>
+    <string name="UP_ONE_LEVEL">..</string>
+    <string name="CURRENT_DIR">.</string>
+    
+    <string name="OPEN">Open</string>
+    <string name="SEND">Send</string>
+    <string name="NOTES">Notes</string>
+    <string name="VERSIONS">Versions</string>
+    <string name="FILE_UPLOAD">File Upload</string>
+    <string name="ADD_NOTE">Add Note</string>
+    <string name="ADD_USER">Add User</string>
+    <string name="ADD_GROUP">Add Group</string>
+    <string name="BY">By</string>
+    <string name="DATE">Date</string>
+    <string name="BROWSE_BACK">Back</string>
+    <string name="MAIN_VIEW">Main View</string>
+    <string name="NEW">New</string>
+    <string name="NEW_FILE">New File</string>
+    <string name="UPLOAD">Upload</string>
+    <string name="SYNC">Sync</string>
+    <string name="FULL_SYNC">Full Sync</string>
+    <string name="PURGE_LOCAL">Purge Local Files</string>
+    <string name="MENU_BTN">Menu</string>
+    <string name="BROWSE_REFRESH">Refresh</string> 
+    <string name="DOMAIN_EXAMPLE_TEXT"></string>
+    <string name="ALERT">Alert</string> 
+    <string name="app_name">Egnyte</string> 
+	<string name="date_prompt">By Date</string>
+    
+    <string-array name="menu">
+		<item>open</item>
+		<item>send</item>
+		<item>notes</item>
+		<item>versions</item>
+	</string-array>  
+	 
+	
+	<string name="local_storage_options">Local Storage Options</string>
+    <string-array name="local_storage_array">
+        <item>100MB</item>
+        <item>200MB</item>
+        <item>500MB</item>
+        <item>1GB</item>
+        <item>Unlimited</item>
+    </string-array>
+    
+    									 			
+	<string name="sort_options">Choose a default sort</string>
+    <string-array name="sort_options_array">
+        <item>Name Ascending</item>
+        <item>Name Descending</item>
+        <item>Date Ascending</item>
+        <item>Date Descending</item>
+    </string-array>
+    
+    <string name="wifi_warn_options">None</string>
+    <string-array name="wifi_warn_array">
+        <item>1 MB</item>
+        <item>5 MB</item>
+        <item>10 MB</item>
+        <item>25 MB</item>
+        <item>Off</item>
+    </string-array>
+    
+    <string name="cell_warn_options">None</string>
+    <string-array name="cell_warn_array">
+        <item>1 MB</item>
+        <item>5 MB</item>
+        <item>10 MB</item>
+        <item>25 MB</item>
+        <item>Off</item>
+    </string-array>
+    
+    
+</resources>

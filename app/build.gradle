@@ -25,6 +25,16 @@ android {
     }
 }
 
+/*
+Set up API key so it remains private
+ */
+Properties privateProperties = new Properties()
+privateProperties.load(project.rootProject.file('local.properties').newDataInputStream())
+def EGNYTE_API_KEY = '"' + privateProperties.getProperty("EgnyteAPIKey") + '"' ?: '"You can define your private api key in local.properties file"';
+android.buildTypes.each { type ->;
+    type.buildConfigField 'String', 'EGNYTE_API_KEY', EGNYTE_API_KEY
+}
+
 dependencies {
     compile files('libs/apache-mime4j-0.6.1.jar')
     compile files('libs/httpclient-4.1.jar')

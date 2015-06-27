@@ -6,8 +6,7 @@ import android.os.Environment;
 
 public class Constants {
 	final public static int SDK_INT= android.os.Build.VERSION.SDK_INT;
-	final public static String API_KEY = "";
-	
+
 	final public static String HELP_URL = "http://www.egnyte.com/corp/mobile/mobile_android_help.html";
 	final public static String USER_AGENT = "PublicEgnyte/1.0 (Linux; Android; " + VERSION.SDK + "; " + Locale.getDefault() + ")";
 	final public static String SERVER = ".egnyte.";

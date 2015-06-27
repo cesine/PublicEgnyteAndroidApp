@@ -66,7 +66,7 @@ public class LoginViewController extends Activity {
 		
 		//2. load oauth url with your unique api_key
 		webview.loadUrl("https://"+ domainInput.getText().toString() + Constants.SERVER + "com/puboauth/" +
-				"token?client_id="+Constants.API_KEY+"&redirect_uri=https://www.egnyte.com/&mobile=1");
+				"token?client_id="+BuildConfig.EGNYTE_API_KEY+"&redirect_uri=https://www.egnyte.com/&mobile=1");
 		CookieSyncManager.createInstance(getBaseContext());
 		if(CookieManager.getInstance().hasCookies()) {
 			CookieManager.getInstance().removeAllCookie();
